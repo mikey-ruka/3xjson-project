@@ -1,0 +1,3 @@
+[submodule "TD/NK"]
+	path = TD/NK
+	url = https://github.com/serial-projects/nk-project.git

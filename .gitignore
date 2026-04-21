@@ -1,0 +1,7 @@
+# Ignore files:
+Build
+build
+*.o
+*.dll
+*.so
+*.a
