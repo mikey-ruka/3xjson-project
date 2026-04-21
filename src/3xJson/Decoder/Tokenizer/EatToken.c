@@ -59,6 +59,7 @@ top_position:
         case '[':
         case ']':
         case ':':
+        case ',':
             XJ_DecoderTokenizerRewind(tokenizer, 1);
             goto highlight_token_ending;
         default:

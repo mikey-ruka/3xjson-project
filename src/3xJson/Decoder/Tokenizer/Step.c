@@ -54,6 +54,7 @@ XJ_DecoderTokenizerStep(
         case '}':
         case '[':
         case ']':
+        case ',':
             tokenizer->special_token_handler = (NK_U8)(cc);
             tokenizer->state_register_bits.special_token = true;
             break;
