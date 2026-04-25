@@ -6,5 +6,6 @@
 #define XJEnumsTokenizer_h
 
 #include "3xJson/Enums/Decoder/Tokenizer.h"
+#include "3xJson/Enums/Decoder/Instance.h"
 
 #endif

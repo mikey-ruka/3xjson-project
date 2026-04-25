@@ -3,10 +3,4 @@
  * Project is under GPL3-license, read LICENSE.md on the root.
  */
 
-#ifndef XJEnums_h
-#define XJEnums_h
-
-#include "3xJson/Enums/Data.h"
-#include "3xJson/Enums/Tokenizer.h"
-
-#endif
+#include "3xJson/Decoder/Instance/InsideRoot/Bootstrap.h"

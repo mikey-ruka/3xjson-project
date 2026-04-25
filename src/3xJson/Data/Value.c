@@ -34,9 +34,7 @@ XJ_ValueConstruct(
      * NOTE: This is guaranteed to be safe, since nothing doesn't require any
      * internal freeing.
      */
-    NK_AnyConstruct(
-        &value->container
-    );
+    value->type = XJ_ENUMS_NODE_TYPE_NULL;
 }
 
 static
@@ -78,7 +76,7 @@ P_XJ_ValueDestructClean(
     XJ_Value* value
 )
 {
-    switch(NK_AnyGetType(&value->container))
+    switch(value->type)
     {
         case XJ_ENUMS_VALUE_TYPE_NOTHING:
         case XJ_ENUMS_VALUE_TYPE_INTEGER:
@@ -95,7 +93,7 @@ P_XJ_ValueDestructClean(
              */
             {
                 NK_SubmergedStringDestruct(
-                    NK_AnyGet(NK_SubmergedString, &value->container)
+                    &value->data.string
                 );
             };
             return;
@@ -105,13 +103,14 @@ P_XJ_ValueDestructClean(
              */
             {
                 NK_VectorIterate(
-                    NK_AnyGet(NK_Vector, &value->container),
+                    value->data.list,
                     (NK_VectorIteratorFunction)(
                         P_XJ_ValueDestructCleanVectorIterator
                     ),
                     NULL
                 );
-                NK_VectorDestruct(NK_AnyGet(NK_Vector, &value->container));
+                NK_VectorDestruct(value->data.list);
+                NK_VectorFree(value->data.list);
             };
             return;
         case XJ_ENUMS_VALUE_TYPE_MAP:
@@ -120,13 +119,14 @@ P_XJ_ValueDestructClean(
              */
             {
                 NK_MapIterate(
-                    NK_AnyGet(NK_Map, &value->container),
+                    value->data.table,
                     (NK_MapIteratorFunction)(
                         P_XJ_ValueDestructCleanMapIterator
                     ),
                     NULL
                 );
-                NK_MapDestruct(NK_AnyGet(NK_Map, &value->container));
+                NK_MapDestruct(value->data.table);
+                NK_MapFree(value->data.table);
             };
             return;
         default:
@@ -134,7 +134,7 @@ P_XJ_ValueDestructClean(
             NK_Panic(
                 "%s: invalid state = %d",
                 NK_CURRENT_WHERE,
-                (int)(NK_AnyGetType(&value->container))
+                (int)(value->type)
             );
             return;
     }
@@ -147,17 +147,4 @@ XJ_ValueDestruct(
 {
     /** Destroy the any container itself. */
     P_XJ_ValueDestructClean(value);
-    NK_AnyDestruct(&value->container);
-}
-
-void
-XJ_ValueAssume(
-    XJ_Value* value,
-    const XJ_U8 type,
-    const void* source,
-    const XJ_Size size
-)
-{
-    NK_AnySetType(&value->container, type);
-    NK_AnyCopy(&value->container, source, size);
 }
