@@ -17,9 +17,10 @@ cd $XJ_BUILD
 # Continue:
 cmake                                                                           \
     ..                                                                          \
-    -DXJ_ENABLE_ASAN=on                                                         \
+    -DCMAKE_BUILD_TYPE="Debug"                                                  \
+    -DXJ_ENABLE_ASAN=ON                                                         \
     -DXJ_SELF_BUILD=on                                                          \
-    -DXJ_TESTS=on                                                               \
+    -DXJ_TESTS=ON                                                               \
     -G Ninja
 
 ninja                                                                           \

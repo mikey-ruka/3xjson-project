@@ -6,7 +6,10 @@ project(
     VERSION 1.0.000
 )
 
-# Set the options:
+# Defines:
+set(XJ_VENDOR_NAME "Ruka Raposa")
+
+# Options:
 option(XJ_ENABLE_ASAN "If you want to enable ASan" OFF)
 option(XJ_STATIC "Build 3xjson static" ON)
 option(XJ_SHARED "Build 3xjson shared" OFF)
@@ -14,17 +17,18 @@ option(XJ_TESTS "Build the tests" OFF)
 option(XJ_VENDOR_NAME "Sets the vendor information" "Ruka Raposa")
 option(XJ_SELF_BUILD "This defines if you are just testing" OFF)
 
-# Are we just testing? 
-# This will automatically (should) the NK project.
-if(XJ_SELF_BUILD)
-    message(STATUS "Adding NK from TD/NK [trying ...]")
-    add_subdirectory(TD/NK)
-endif()
-
 # Set the functions
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
 include(XJ_ASanSupport)
 include(XJ_TryToAddLibrary)
+
+# Are we just testing? 
+# This will automatically (should) the NK project.
+if(XJ_SELF_BUILD)
+    message(STATUS "Adding NK from TD/NK [trying ...]")
+    set(NK_ENABLE_ASAN ${XJ_ENABLE_ASAN})
+    add_subdirectory(TD/NK)
+endif()
 
 # Build the target:
 add_library(XJ_Headers INTERFACE)
@@ -35,6 +39,7 @@ file(GLOB_RECURSE xj_sources "${CMAKE_CURRENT_SOURCE_DIR}/src/*.c")
 
 # Create the dependencies:
 add_library(XJ_Libraries INTERFACE)
+target_link_libraries(XJ_Libraries INTERFACE XJ_ASanSupportInterface)
 cmake_language(CALL XJ_TryAddToLibrary NK::NK-static XJ_Libraries)
 
 # Static Target:
@@ -64,6 +69,7 @@ if(XJ_TESTS)
     target_link_libraries(XJ_TestsInterface INTERFACE XJ_Libraries)
     set(xj_tests
         "${CMAKE_CURRENT_SOURCE_DIR}/tests/XJDecoderTokenizerTest.c" "XJDecoderTokenizerTest"
+        "${CMAKE_CURRENT_SOURCE_DIR}/tests/XJDecoderInstanceTest.c" "XJDecoderInstanceTest"
     )
     cmake_language(CALL XJ_GenerateTests "${xj_tests}" XJ_TestsInterface)
 endif()
