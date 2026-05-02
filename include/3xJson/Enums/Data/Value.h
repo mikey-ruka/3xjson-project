@@ -44,11 +44,11 @@
 #define XJ_ENUMS_VALUE_TYPE_LIST                                                5
 
 /**
- * @brief The type `map` of the json format.
+ * @brief The type `table` of the json format.
  * 
  * @note The map is `NK_Map<XJ_Value>` which is a map that contains other
  * `XJ_Value`(s)
  */
-#define XJ_ENUMS_VALUE_TYPE_MAP                                                 6
+#define XJ_ENUMS_VALUE_TYPE_TABLE                                               6
 
 #endif

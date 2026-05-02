@@ -6,6 +6,28 @@
 #define XJEnumsDecoderInstance_h
 
 /**
+ * State:
+ */
+
+/**
+ * @brief In this case, the machine still is running, we haven't finished the
+ * operations.
+ */
+#define XJ_ENUMS_INSTANCE_STATE_RUNNING                                         0
+
+/** 
+ * @brief In this case, the machine has finished and you can extract the
+ * `result` without any problems.
+ */
+#define XJ_ENUMS_INSTANCE_STATE_FINISHED                                        1
+
+/**
+ * @brief In this case, the machine has NOT finished good, something went
+ * wrong and no data was set, everything was probably destroyed.
+ */
+#define XJ_ENUMS_INSTANCE_STATE_DIED                                            2
+
+/**
  * Inside:
  */
 

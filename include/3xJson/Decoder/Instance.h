@@ -56,6 +56,11 @@ typedef struct XJ_DecoderInstance
     NK_Vector scope_stack;
 
     /**
+     * @brief This contains the result.
+     */
+    XJ_Value result;
+
+    /**
      * @brief The general state of the parser. This defines if the machine is
      * running, finished or died.
      */

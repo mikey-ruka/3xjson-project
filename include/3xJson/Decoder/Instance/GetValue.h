@@ -9,10 +9,15 @@
 
 /**
  * @brief This will return the value to be adquired.
+ * 
+ * @warning You need to call `XJ_DecoderTokenizerStep()` to get the next token
+ * because `GetValue` will use whatever is present on the `instance->tokenizer`
+ * this is done to avoid unalignment problems.
  */
 XJ_Value
 XJ_DecoderInstanceGetValue(
-    XJ_DecoderInstance* instance
+    XJ_DecoderInstance* instance,
+    XJ_U8 next_action
 );
 
 #endif

@@ -113,7 +113,7 @@ P_XJ_ValueDestructClean(
                 NK_VectorFree(value->data.list);
             };
             return;
-        case XJ_ENUMS_VALUE_TYPE_MAP:
+        case XJ_ENUMS_VALUE_TYPE_TABLE:
             /**
              * In this case, we need to iterate on the NK_Map.
              */

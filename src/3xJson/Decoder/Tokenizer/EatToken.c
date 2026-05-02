@@ -117,7 +117,6 @@ top_position:
             tokenizer->number_handler = 
                 (tokenizer->number_handler * 10) +
                 (cc - '0');
-            printf("GOT: %c\n", cc);
         }
     }
 

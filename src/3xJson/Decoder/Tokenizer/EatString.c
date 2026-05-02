@@ -16,7 +16,11 @@ XJ_DecoderTokenizerEatString(
 {
     XJ_Result good = true;
     XJ_S32 cc;
-    NK_DynamicStringPush(&tokenizer->token, (NK_C8)(entrypoint));
+    
+    /**
+     * NOTE: We could have the "/ in the string, but that is counterproductive.
+     * `NK_DynamicStringPush(&tokenizer->token, (NK_C8)(entrypoint));`
+     */
     
     /** We need to update the register: */
     tokenizer->state_register_bits.string = true;
@@ -24,9 +28,13 @@ top_position:
     cc = XJ_DecoderTokenizerGetCharacter(tokenizer);
     if(cc != -1)
     {
-        NK_DynamicStringPush(&tokenizer->token, (NK_C8)(cc));
         if(cc != entrypoint)
         {
+            /**
+             * NOTE: The same here, we could have the "/ on the string, but
+             * that is counterproductive.
+             */
+            NK_DynamicStringPush(&tokenizer->token, (NK_C8)(cc));
             goto top_position;
         }
     }

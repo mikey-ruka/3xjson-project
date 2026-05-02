@@ -6,6 +6,9 @@
 #include "3xJson/Decoder/Instance/InsideRoot.h"
 #include "3xJson/Enums.h"
 
+#include "3xJson/Decoder/Instance/InsideRoot/Bootstrap.h"
+#include "3xJson/Decoder/Instance/InsideRoot/Ending.h"
+
 void
 XJ_DecoderInstanceInsideRoot(
     XJ_DecoderInstance* instance
@@ -15,12 +18,12 @@ XJ_DecoderInstanceInsideRoot(
     {
         case XJ_ENUMS_INSTANCE_SCOPE_ACTION_ROOT_BOOTSTRAP:
             {
-                
+                XJ_DecoderInstanceInsideRootBootstrap(instance);     
             };
             break;
         case XJ_ENUMS_INSTANCE_SCOPE_ACTION_ROOT_CLOSURE:
             {
-
+                XJ_DecoderInstanceInsideRootEnding(instance);
             }    
             break;
         default:
