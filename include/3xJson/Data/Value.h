@@ -107,5 +107,12 @@ XJ_ValueDestruct(
     XJ_Value* value
 );
 
+/**
+ * @brief Debug the `XJ_Value`
+ */
+void
+XJ_ValueDebug(
+    XJ_Value* value
+);
 
 #endif

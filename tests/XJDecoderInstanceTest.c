@@ -28,11 +28,48 @@ int main(
 
     XJ_DecoderInstance instance;
     XJ_DecoderInstanceConstruct(&instance, &fp);
-    XJ_DecoderInstanceStep(&instance);
+    
+    while(
+        XJ_DecoderInstanceStep(&instance) == XJ_ENUMS_INSTANCE_STATE_RUNNING
+    );
+
+    switch(
+        XJ_DecoderInstanceGetState(&instance)
+    )
+    {
+        case XJ_ENUMS_INSTANCE_STATE_FINISHED:
+            {
+                printf("%s: Finished!\n", NK_CURRENT_WHERE);
+            };
+            break;
+        case XJ_ENUMS_INSTANCE_STATE_DIED:
+            {
+                NK_Panic(
+                    "%s: Died",
+                    NK_CURRENT_WHERE
+                );
+            };
+            break;
+        default:
+            {
+                NK_Panic(
+                    "%s: Invalid state = %d",
+                    NK_CURRENT_WHERE,
+                    XJ_DecoderInstanceGetState(&instance)
+                );
+            };
+            break;
+    };
+
+    XJ_Value proc_value = XJ_DecoderInstanceExtractResult(&instance);
+
     XJ_DecoderInstanceDestruct(&instance);
 
-    printf("%s: Done.\n", NK_CURRENT_WHERE);
+    printf("=> Result:\n");
+    XJ_ValueDebug(&proc_value);
+    printf("\n");
 
+    XJ_ValueDestruct(&proc_value);
     NK_ReaderClose(&fp);
     NK_FileReaderDestruct(&fp);
 

@@ -92,6 +92,10 @@ XJ_DecoderInstanceConstruct(
 
 /**
  * @brief Destruct the `XJ_DecodeInstance`
+ * 
+ * @warning This won't clean the `XJ_Value`, you must extract it and destroy it
+ * yourself! The `XJ_Value` will only be cleaned when you have a *BAD STATE*,
+ * when the final state of the `XJ_DecoderInstance` was set to `_DIED`!
  */
 void
 XJ_DecoderInstanceDestruct(
@@ -103,6 +107,22 @@ XJ_DecoderInstanceDestruct(
  */
 NK_U8
 XJ_DecoderInstanceStep(
+    XJ_DecoderInstance* instance
+);
+
+/**
+ * @brief Extract the `XJ_Value` from inside.
+ */
+XJ_Value
+XJ_DecoderInstanceExtractResult(
+    XJ_DecoderInstance* instance
+);
+
+/**
+ * @brief Get the current state of `XJ_DecoderInstance`
+ */
+NK_U8
+XJ_DecoderInstanceGetState(
     XJ_DecoderInstance* instance
 );
 
