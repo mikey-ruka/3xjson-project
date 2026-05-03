@@ -44,6 +44,9 @@ top_position:
         case '\n':
         case '\r':
             /** Don't jump anywhere. */
+            {
+                NK_DynamicStringPop(&tokenizer->token);
+            };
             goto useless_token_ending;
         /**
          * TODO: On the the future, implement token dropping on the state of the
@@ -60,7 +63,10 @@ top_position:
         case ']':
         case ':':
         case ',':
-            XJ_DecoderTokenizerRewind(tokenizer, 1);
+            {
+                NK_DynamicStringPop(&tokenizer->token);
+                XJ_DecoderTokenizerRewind(tokenizer, 1);
+            };
             goto highlight_token_ending;
         default:
             break;
@@ -121,15 +127,16 @@ top_position:
     }
 
     /**
-     * In any of the cases, we push back on the tokenizer.
-     */
-    NK_DynamicStringPush(&tokenizer->token, cc);
-
-    /**
      * We need to return to the top, we could use a `while`, but that is
      * infering on more nests, using goto here is just like an loop.
      */
     cc = XJ_DecoderTokenizerGetCharacter(tokenizer);
+
+    /**
+     * In any of the cases, we push back on the tokenizer.
+     */
+    NK_DynamicStringPush(&tokenizer->token, cc);
+
     goto top_position;
 
 useless_token_ending:
