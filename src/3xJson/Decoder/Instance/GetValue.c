@@ -22,6 +22,12 @@ P_XJ_DecoderInstanceGetValueEnterTable(
         XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_OPENING;
     instance->current_scope.inside =
         XJ_ENUMS_INSTANCE_SCOPE_INSIDE_TABLE;
+    
+    /** Initialize this: */
+    NK_SubmergedStringConstruct(
+        &instance->current_scope.current_key,
+        NULL
+    );
 
     /** Set the table: */
     instance->current_scope.value.type = XJ_ENUMS_VALUE_TYPE_TABLE;

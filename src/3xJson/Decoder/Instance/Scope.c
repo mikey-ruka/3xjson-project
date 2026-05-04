@@ -56,6 +56,9 @@ XJ_DecoderInstancePopCurrentScope(
                     NK_SubmergedStringGet(&instance->current_scope.current_key),
                     (void*)(&orphaned_value)
                 );
+                NK_SubmergedStringDestruct(
+                    &instance->current_scope.current_key
+                );
             };
             break;
         default:

@@ -39,11 +39,15 @@ XJ_DecoderInstanceConstruct(
         &instance->scope_stack,
         sizeof(XJ_DecoderInstanceScope)
     );
-    
+
     /** We say the machine is on this state: */
     instance->current_scope.action = 0;
     instance->current_scope.inside = XJ_ENUMS_INSTANCE_SCOPE_INSIDE_ROOT;
     instance->state = XJ_ENUMS_INSTANCE_STATE_RUNNING;
+    NK_SubmergedStringConstruct(
+        &instance->current_scope.current_key,
+        NULL
+    );
 }
 
 static

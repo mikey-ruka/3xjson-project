@@ -1,0 +1,298 @@
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/tests/XJDecoderInstanceTest.c:27: Continue.
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:23: Root
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideRoot.c:20: Root Bootstrap
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0018
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0058
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0098
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be00d8
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0118
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0158
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0198
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be01d8
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0218
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0258
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0298
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be02d8
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0318
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be0358
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0398
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be03d8
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0418
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:40: Constructed Map = 0x7bc918be0458
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:22: Table Opening
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/GetValue.c:65: Constructed Vector = 0x7bc918be04d8
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:29: List
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 5
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:26: Table Key Grab
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:30: Table Confirm Assignment
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:34: Table Get Data
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:35: Table
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideTable.c:38: Table Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Scope.c:32: me is = 6
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/Step.c:23: Root
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/src/3xJson/Decoder/Instance/InsideRoot.c:26: Root Closure
+/home/mikey/Dokumente/gits/ruka-canon/3xjson-project/tests/XJDecoderInstanceTest.c:42: Finished!
+=> Result:
+{"people":{"Shisengumi":["Okita", "Toshi", "Kondo"], "Yorozuya":["Gin-chan", "Kaguya", "Glasses"], "Heroes":["Bakugo", "Kirishima"], "Not Heroes":[{"reason":"cringe", "name":"Izuku"}, {"reason":"didn't marry Izuku 😔", "name":"Urakaka"}]}, "based":true, "politics":{"br":["Aldo Rebelo", "Jair Bolsonaro"], "de":["Frank-Walter Steinmeier", "Ad-"], "us":["Donald Trump", "Joe Biden"]}, "music":{"good":[{"name":"Apartaments", "author":"Windows96"}, {"name":"Asgore", "author":"Toby Fox"}, {"name":"아카시아 아가씨 (아카시아 아가씨)", "author":"???"}, {"name":"Лавандовый Город", "author":"PERMSKY KRAY"}], "bad":null}, "languages":["c", "c++"]}

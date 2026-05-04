@@ -1,8 +1,34 @@
 {
-    "window":
+    "people":
     {
-        "size": 800,
-        "height": 640
+        "Shisengumi": ["Okita", "Toshi", "Kondo"],
+        "Yorozuya": ["Gin-chan", "Kaguya", "Glasses"],
+        "Heroes": ["Bakugo", "Kirishima"],
+        "Not Heroes": [
+            {"name": "Izuku", "reason": "cringe"},
+            {"name": "Urakaka", "reason": "didn't marry Izuku 😔"}
+        ]
     },
-    "keys": ["a"]
+
+    "politics":
+    {
+        "us": ["Donald Trump", "Joe Biden"],
+        "br": ["Aldo Rebelo", "Jair Bolsonaro"],
+        "de": ["Frank-Walter Steinmeier", "Ad-"]
+    },
+
+    "music":
+    {
+        "good":
+        [
+            {"author": "Windows96", "name": "Apartaments"},
+            {"author": "Toby Fox", "name": "Asgore"},
+            {"author": "???", "name": "아카시아 아가씨 (아카시아 아가씨)"},
+            {"author": "PERMSKY KRAY", "name": "Лавандовый Город"}
+        ],
+        "bad": null
+    },
+
+    "languages": ["c", "c++"],
+    "based": true
 }
