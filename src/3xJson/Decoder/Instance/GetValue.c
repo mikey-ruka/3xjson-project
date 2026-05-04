@@ -18,6 +18,10 @@ P_XJ_DecoderInstanceGetValueEnterTable(
 {
     /** Open the table here: */
     XJ_DecoderInstancePushCurrentScope(instance);
+    instance->current_scope.action = 
+        XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_OPENING;
+    instance->current_scope.inside =
+        XJ_ENUMS_INSTANCE_SCOPE_INSIDE_TABLE;
 
     /** Set the table: */
     instance->current_scope.value.type = XJ_ENUMS_VALUE_TYPE_TABLE;
@@ -27,6 +31,7 @@ P_XJ_DecoderInstanceGetValueEnterTable(
         256,
         sizeof(XJ_Value)
     );
+    printf("%s: Constructed Map = %p\n", NK_CURRENT_WHERE, instance->current_scope.value.data.list);
 }
 
 static
@@ -35,16 +40,23 @@ P_XJ_DecoderInstanceGetValueEnterList(
     XJ_DecoderInstance* instance
 )
 {
-    /** Open the table here: */
+    /** We need to save the old scope: */
     XJ_DecoderInstancePushCurrentScope(instance);
 
-    /** Set the list: */
+    /** We say the list is currently to be open: */
+    instance->current_scope.action =
+        XJ_ENUMS_INSTANCE_SCOPE_ACTION_LIST_OPENING;
+    instance->current_scope.inside = 
+        XJ_ENUMS_INSTANCE_SCOPE_INSIDE_LIST;
+
+    /** Adjust the `XJ_Value` to be holding what we need: */
     instance->current_scope.value.type = XJ_ENUMS_VALUE_TYPE_LIST;
     instance->current_scope.value.data.list = NK_VectorNew();
     NK_VectorConstruct(
         instance->current_scope.value.data.list,
         sizeof(XJ_Value)
     );
+    printf("%s: Constructed Vector = %p\n", NK_CURRENT_WHERE, instance->current_scope.value.data.list);
 }
 
 XJ_Value
@@ -67,9 +79,11 @@ XJ_DecoderInstanceGetValue(
         {
             case '{':
                 P_XJ_DecoderInstanceGetValueEnterTable(instance);
+                value.type = XJ_ENUMS_VALUE_TYPE_TABLE;
                 break;
             case '[':
                 P_XJ_DecoderInstanceGetValueEnterList(instance);
+                value.type = XJ_ENUMS_VALUE_TYPE_LIST;
                 break;
             default:
                 {

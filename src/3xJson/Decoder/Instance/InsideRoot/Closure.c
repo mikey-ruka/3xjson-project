@@ -8,7 +8,7 @@
 #include "3xJson/Enums.h"
 
 void
-XJ_DecoderInstanceInsideRootEnding(
+XJ_DecoderInstanceInsideRootClosure(
     XJ_DecoderInstance* instance
 )
 {

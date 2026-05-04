@@ -20,16 +20,19 @@ XJ_DecoderInstanceStep(
         {
             case XJ_ENUMS_INSTANCE_SCOPE_INSIDE_ROOT:
                 {
+                    printf("%s: Root\n", NK_CURRENT_WHERE);
                     XJ_DecoderInstanceInsideRoot(instance);
                 };
                 break;
             case XJ_ENUMS_INSTANCE_SCOPE_INSIDE_LIST:
                 {
+                    printf("%s: List\n", NK_CURRENT_WHERE);
                     XJ_DecoderInstanceInsideList(instance);
                 };
                 break;
             case XJ_ENUMS_INSTANCE_SCOPE_INSIDE_TABLE:
                 {
+                    printf("%s: Table\n", NK_CURRENT_WHERE);
                     XJ_DecoderInstanceInsideTable(instance);
                 };
                 break;

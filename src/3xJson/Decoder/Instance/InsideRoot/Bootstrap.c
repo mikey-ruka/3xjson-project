@@ -25,7 +25,7 @@ XJ_DecoderInstanceInsideRootBootstrap(
      */
     if(
         NK_SUPPORT_UNLIKELY(
-            (current_value.type != XJ_ENUMS_VALUE_TYPE_TABLE) ||
+            (current_value.type != XJ_ENUMS_VALUE_TYPE_TABLE) &&
             (current_value.type != XJ_ENUMS_VALUE_TYPE_LIST)
         )
     )

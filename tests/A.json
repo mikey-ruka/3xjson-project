@@ -1,1 +1,8 @@
-"Good"
+{
+    "window":
+    {
+        "size": 800,
+        "height": 640
+    },
+    "keys": ["a"]
+}

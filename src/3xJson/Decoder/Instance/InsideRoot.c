@@ -4,10 +4,9 @@
  */
 
 #include "3xJson/Decoder/Instance/InsideRoot.h"
-#include "3xJson/Enums.h"
-
 #include "3xJson/Decoder/Instance/InsideRoot/Bootstrap.h"
-#include "3xJson/Decoder/Instance/InsideRoot/Ending.h"
+#include "3xJson/Decoder/Instance/InsideRoot/Closure.h"
+#include "3xJson/Enums.h"
 
 void
 XJ_DecoderInstanceInsideRoot(
@@ -18,12 +17,14 @@ XJ_DecoderInstanceInsideRoot(
     {
         case XJ_ENUMS_INSTANCE_SCOPE_ACTION_ROOT_BOOTSTRAP:
             {
+                printf("%s: Root Bootstrap\n", NK_CURRENT_WHERE);
                 XJ_DecoderInstanceInsideRootBootstrap(instance);     
             };
             break;
         case XJ_ENUMS_INSTANCE_SCOPE_ACTION_ROOT_CLOSURE:
             {
-                XJ_DecoderInstanceInsideRootEnding(instance);
+                printf("%s: Root Closure\n", NK_CURRENT_WHERE);
+                XJ_DecoderInstanceInsideRootClosure(instance);
             }    
             break;
         default:

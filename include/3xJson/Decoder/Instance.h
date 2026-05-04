@@ -15,6 +15,9 @@
  */
 typedef struct XJ_DecoderInstanceScope
 {
+    /** When dealing with tables, we want to have an handler here: */
+    NK_SubmergedString current_key;
+
     /**
      * @brief Contains the current value, this will be on the future be reduced
      * to the tree.

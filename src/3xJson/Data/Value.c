@@ -166,6 +166,7 @@ P_XJ_ValueDebugIterateTable(
     NK_U8* userdata
 )
 {
+    printf("\"%s\":", key);
     P_XJ_ValueDebug(
         data,
         ((*userdata) + 1)

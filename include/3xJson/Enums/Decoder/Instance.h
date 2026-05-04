@@ -104,10 +104,16 @@
 #define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_KEY_GRAB                           6
 
 /**
+ * @brief In the `Table` mode, an `Assignment Validator` checks if the next
+ * token is the ':' required token!
+ */
+#define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_CONFIRM_ASSIGNMENT                 7
+
+/**
  * @brief In the `Table` mode, an `Get Data ` is when the data is to be handled
  * from the list.
  */
-#define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_GET_DATA                           7
+#define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_GET_DATA                           8
 
 /**
  * @brief In the `Table` mode, an `Closure` is when the token '}' is found, but
@@ -115,6 +121,6 @@
  * NOT going to be considered, like:
  *      > {"key": "value"|} -> invalid pattern, expected either '}' or ','
  */
-#define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_CLOSURE                            8
+#define XJ_ENUMS_INSTANCE_SCOPE_ACTION_TABLE_CLOSURE                            9
 
 #endif
